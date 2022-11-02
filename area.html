@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Yummy</title>
+
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="stylesheet" href="css/all.min.css"> 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/sections/nav_style.css">
+  <link rel="stylesheet" href="css/sections/home_style.css">
+  <link rel="stylesheet" href="css/shared_style.css">
+
+
+</head>
+
+<body>
+
+  <nav class="vh-100 d-flex ">
+    <div class="links p-4 d-flex flex-column justify-content-between">
+      <ul class="list-unstyled">
+        <li class="mb-4"><a class="links-item" href="javascript:void(0)">Search</a></li>
+        <li class="mb-4"><a class="links-item" href="categories.html">Categories</a></li>
+        <li class="mb-4"><a class="links-item" href="area.html">Area</a></li>
+        <li class="mb-4"><a class="links-item" href="ingredients.html">Ingredients</a></li>
+        <li class="mb-4"><a class="links-item" href="contact.html">Contact Us</a></li>
+      </ul>
+      <div id="nav-footer">
+        <div class="d-flex">
+          <a href="#" target="_blank"><div><i class="mx-1 fa-brands fa-github"></i></div></a>
+          <a href="#" target="_blank"><div><i class="mx-1 fa-brands fa-linkedin"></i> </div></a>
+          <a href="#" target="_blank"><div><i class="mx-1 fa-brands fa-facebook"></i> </div></a>
+          <a href="#" target="_blank"><div><i class="mx-1 fa-brands fa-instagram"></i> </div></a>
+        </div>
+        <p>Copyright © 2022 by Hesham Aref. <br>All Rights Reserved.</p>
+      </div>
+    </div>
+    <div id="drawer" class="d-flex flex-column justify-content-between align-items-center">
+      <a href="index.html"><img class="img-fluid" src="assets/images/logo.png" alt="LOGO"></a>
+      <div id="drawer-icon">
+        <i id="open-btn" class="fa fa-bars fs-3 mx-2 mb-1"></i>
+      </div>
+      <div class="d-flex flex-column">
+        <a href="#"><i class="fa fa-globe mb-3"></i></a>
+        <a href="#"><i class="fa fa-share-nodes"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="area">
+    <div class="container ">
+      <div class="row area-list g-4">
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="home">
+    <div class="container p-0 p-xl-5">
+      <div class="row meal-list g-4">
+      
+      </div>
+    </div>
+  </section>
+
+
+  <section id="meal">
+    <div class="container p-0 p-xl-5">
+      <div class="row meal-list g-4">
+        <div class="col-md-5 mb-4 d-flex flex-column justify-content-start align-items-center">
+          <img id="image" class="img-fluid mb-2" src="https://www.themealdb.com/images/media/meals/58oia61564916529.jpg"
+            alt="meal image">
+          <h2 id="name" class="fw-lighter fs-1">Corba</h2>
+        </div>
+        <div class="col-md-7">
+          <h2 class="fw-lighter">Instructions</h2>
+          <p id="instructions"></p>
+          <p><b>Area: </b><span id="area">Turkish</span></p>
+          <p><b>Category: </b><span id="category">Side</span></p>
+          <h2 class="fw-lighter mb-3">Ingredients:</h2>
+          <div id="ingredients" class="d-flex flex-wrap mb-4">
+            
+          </div>
+          <h2 class="fw-lighter mb-3">Tags:</h2>
+          <a id="youtube" href="" target="_blank">
+            <button class="btn btn-outline-danger"> YouTube </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+  <script src="js/packages/bootstrap.bundle.min.js" defer></script>
+  <script src="js/packages/jquery-3.6.1.js" defer></script>
+  <script src="js/packages/jquery-ui.min.js" defer></script>
+  <script src="js/sideNavBar.js" defer></script>
+  <script type="module" src="js/area.js" defer></script>
+
+
+</body>
+
+</html>

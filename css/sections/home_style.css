@@ -1,0 +1,104 @@
+
+#search-bars{
+    display: none;
+}
+
+#search-bars input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #8C8C8C;
+    background-color: transparent;
+}
+
+.meal-list .overlay
+{
+    bottom: -100%;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.meal-list .meal-card{
+    cursor: pointer;
+}
+
+.meal-list .meal-card:hover .overlay
+{
+    bottom: 0;
+}
+
+#meal{
+    display: none;
+}
+
+.Ingredient-card
+{
+    border-radius: 5px;
+    background-color: var(--bg-sec-color);
+    color: var(--text-sec-color);
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn-outline-danger:hover{
+    background-color: red;
+}
+
+
+#area .area-card{
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.category-list .overlay
+{
+    bottom: -100%;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    padding: 5px;
+}
+
+.category-list .category-card{
+    cursor: pointer;
+}
+
+.category-list .category-card:hover .overlay
+{
+    bottom: 0;
+}
+
+
+.category-list .category-card p{
+    line-height: 1.1;
+    font-size: 14px;
+}
+
+
+.ingredient-list .ingredient-card{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+
+.ingredient-list .ingredient-card i{
+    color: green;
+}
+
+
+
+
+
+
+
